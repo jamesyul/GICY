@@ -1,0 +1,37 @@
+<div class="container-fluid">
+  
+  <h1>GICY</h1>
+  <br>
+  <h2>El análisis de sentimiento es una técnica de minería de datos que se utiliza para identificar y medir la polaridad emocional en un conjunto de datos de texto. El objetivo es determinar el sentimiento general hacia un tema, producto, servicio o evento en particular.</h2>
+      
+    <ngb-carousel>
+
+      <ng-template ngbSlide *ngFor="let image of images">
+        <div class="wrapper">
+          <img [src]="image.src" alt="Random first slide">
+        </div>
+        <br>
+        <div class="carousel-caption">
+          <h3>{{ image.title }}</h3>
+          <p>{{ image.short }}</p>
+        </div>
+      </ng-template>
+
+
+
+    </ngb-carousel>
+
+    <br><br>
+    
+       
+    
+</div>
+
+<footer id="sticky-footer" class="flex-shrink-0 py-4 bg-dark text-white-50">
+  <div class="container text-center">
+      <small>Copyright &copy; GICY</small>
+  </div>
+</footer>
+     
+
+

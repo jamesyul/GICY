@@ -1,0 +1,49 @@
+body {
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 3ch;
+    padding-bottom: 3ch;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.boton {
+    border: 1px solid #8f24cd; /*anchura, estilo y color borde*/
+    padding: 10px; /*espacio alrededor texto*/
+    background-color: #8f24cd; /*color botón*/
+    color: #ffffff; /*color texto*/
+    text-decoration: none; /*decoración texto*/
+    //text-transform: uppercase; /*capitalización texto*/
+    font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+    border-radius: 10px; /*bordes redondos*/
+    font-size: 15px;
+}
+
+h1 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h4 {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+textarea {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px
+}
+
+div {
+    text-align: center;
+}
+

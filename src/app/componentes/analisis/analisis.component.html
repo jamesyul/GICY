@@ -1,0 +1,26 @@
+<body>
+    
+    <h1>Análisis de sentimiento</h1>
+    <h4>Ingrese el texto para analizar:</h4>
+    <form (ngSubmit)="analizar()">
+        <textarea [(ngModel)]="texto" name="comentarios" rows="10" cols="100"></textarea>
+        <br>
+
+        <div class="bt">
+            <button type="submit" class="boton" target="_blank">Realizar análisis</button>
+        </div>
+    </form>
+    <br><br>
+    <div>
+        <input type="text" name="nombredelacaja" [placeholder]="resultado" readonly>
+    </div>
+
+   
+    
+</body>
+
+<footer id="sticky-footer" class="flex-shrink-0 py-4 bg-dark text-white-50">
+    <div class="container text-center">
+        <small>Copyright &copy; GICY</small>
+    </div>
+</footer>

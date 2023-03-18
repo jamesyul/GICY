@@ -1,0 +1,70 @@
+.container-fluid {
+    height: 100px;
+    color: black;
+    background: rgb(206, 198, 179);
+}
+
+h1{
+    font-weight: 700;
+    font-size: 60px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+ngb-carousel .wrapper {
+    position:relative;
+    height: 90;
+    padding-top: 50%; /* Keep ratio for 900x500 images */
+}
+ngb-carousel .wrapper>img {
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  
+}
+ngb-carousel .icon{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 20px;
+    color: #228291;
+    line-height: 30px;
+    margin-top: 85px;
+    z-index: 1000;
+
+}
+.icon{
+    left: 780px;
+}
+
+h3 {
+    color: black;
+    text-decoration: double;
+    text-align:center;
+}
+
+p {
+    color:black;
+    text-decoration: dotted;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
